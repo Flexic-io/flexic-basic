@@ -1,4 +1,4 @@
-baseURL = "/flexic-co.github.io/flexic-basic"
+baseURL = "//flexic-co.github.io/flexic-basic/"
 title   = "Flexic"
 languageCode = "en-us"
 theme = "hello-friend-ng"
