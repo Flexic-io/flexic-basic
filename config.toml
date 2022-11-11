@@ -1,7 +1,8 @@
-baseURL = "//flexic-co.github.io/flexic-basic/"
+baseURL = "/"
 title   = "Flexic"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+# //flexic-co.github.io/flexic-basic/
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -68,7 +69,7 @@ disableHugoGeneratorInject = false
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
-  # gitUrl = ""
+  # gitUrl = "flexic-co.github.io"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
@@ -168,7 +169,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "instagram"
-    url  = "https://www.instagram.com/flexic.io/"
+    url  = "https://www.instagram.com/flexic.co/"
 
   [[params.social]]
     name = "facebook"
@@ -180,7 +181,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/Flexic-io"
+    url  = "https://github.com/Flexic-co"
 
   
 [languages]
