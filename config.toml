@@ -1,8 +1,8 @@
 baseURL = "//flexic-co.github.io/flexic-basic"
-title   = "Flexic - Web Design & iOS Apps "
+title   = "Flexic - Web Design & iOS Apps"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-
+# //flexic-co.github.io/flexic-basic/
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -11,8 +11,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-googleAnalytics = "UA-194794123-1"
-# disqusShortname = ""
+googleAnalytics ="G-"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -37,8 +36,8 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
-  name = "Flexic"
+#[author]
+#  name = "Flexic"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -56,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "UK based web design & iOS apps specialists"
+  description = "UK based Web design & iOS app specialists"
   keywords = ""
   images = [""]
 
@@ -118,7 +117,7 @@ disableHugoGeneratorInject = false
 
     topText = []
     bottomText = [
-      "Powered with &#10084 by Flexic.",
+      "Powered with &#10084 by <a href=\"https:/flexic.co.uk\">Flexic</a>.",
     ]
 
   # Colors for favicons
@@ -164,10 +163,6 @@ disableHugoGeneratorInject = false
     url  = "mailto:ping@flexic.co.uk"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/company/flexic-io/"
-
-  [[params.social]]
     name = "instagram"
     url  = "https://www.instagram.com/flexic.co/"
 
@@ -176,19 +171,16 @@ disableHugoGeneratorInject = false
     url  = "https://www.facebook.com/flexic.io/"
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/flexic_co"
-
-  [[params.social]]
     name = "github"
     url  = "https://github.com/Flexic-co"
 
   
 [languages]
   [languages.en]
-    subtitle  = ""
-    weight    = 0
+    weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.en.params]
+    subtitle  = "Hello Friend NG Theme"
 
 
 [menu]
