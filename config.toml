@@ -1,8 +1,8 @@
 baseURL = "//flexic-co.github.io/flexic-basic"
-title   = "Flexic"
+title   = "Flexic - Web Design & iOS Apps "
 languageCode = "en-us"
 theme = "hello-friend-ng"
-# //flexic-co.github.io/flexic-basic/
+
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -56,7 +56,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "UK based Web design & SEO specialists"
+  description = "UK based web design & iOS apps specialists"
   keywords = ""
   images = [""]
 
@@ -118,7 +118,7 @@ disableHugoGeneratorInject = false
 
     topText = []
     bottomText = [
-      "Powered with &#10084 by <a href=\"https:/flexic.co.uk\">Flexic</a>.",
+      "Powered with &#10084 by Flexic.",
     ]
 
   # Colors for favicons
@@ -164,20 +164,12 @@ disableHugoGeneratorInject = false
     url  = "mailto:ping@flexic.co.uk"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/company/flexic-io/"
-
-  [[params.social]]
     name = "instagram"
     url  = "https://www.instagram.com/flexic.co/"
 
   [[params.social]]
     name = "facebook"
     url  = "https://www.facebook.com/flexic.io/"
-
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/flexic_co"
 
   [[params.social]]
     name = "github"
