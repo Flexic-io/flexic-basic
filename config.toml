@@ -1,5 +1,5 @@
 baseURL = "//flexic-co.github.io/flexic-basic"
-title   = "Flexic"
+title   = "Flexic - Web Design & iOS Apps"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 # //flexic-co.github.io/flexic-basic/
@@ -11,8 +11,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-#.Site.Config.Services.GoogleAnalytics.ID = "UA-194794123-1"
-# disqusShortname = ""
+# GA4 link here 
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -56,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "UK based Web design & SEO specialists"
+  description = "UK based Web design & iOS app specialists"
   keywords = ""
   images = [""]
 
