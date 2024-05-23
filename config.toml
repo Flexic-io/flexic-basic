@@ -11,7 +11,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-googleAnalytics = "UA-194794123-1"
+#.Site.Config.Services.GoogleAnalytics.ID = "UA-194794123-1"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -37,8 +37,8 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
-  name = "Flexic"
+#[author]
+#  name = "Flexic"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -185,7 +185,7 @@ disableHugoGeneratorInject = false
 
   
 [languages]
-  [languages.en]
+  [languages.en.params]
     subtitle  = ""
     weight    = 0
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
