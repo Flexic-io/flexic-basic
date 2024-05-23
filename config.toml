@@ -164,12 +164,20 @@ disableHugoGeneratorInject = false
     url  = "mailto:ping@flexic.co.uk"
 
   [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/company/flexic-io/"
+
+  [[params.social]]
     name = "instagram"
     url  = "https://www.instagram.com/flexic.co/"
 
   [[params.social]]
     name = "facebook"
     url  = "https://www.facebook.com/flexic.io/"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/flexic_co"
 
   [[params.social]]
     name = "github"
